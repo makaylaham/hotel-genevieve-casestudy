@@ -1,5 +1,10 @@
 :root {
-
+    --font-sans-serif: Gowun Dodum, sans-serif;
+    --font-serif: outfit, serif;
+    --green-dark: #43555a;
+    --soft-pink: #f4ecf0;
+    --med-pink: #dbb4c3;
+    --white: #ffffff;
 }
 
 html {
@@ -10,5 +15,6 @@ html {
   }
 
 body {
-    font-family: Gowun Dodum;
+    font-family: var(--font-sans-serif);
+    color: var(--green-dark);
 }
