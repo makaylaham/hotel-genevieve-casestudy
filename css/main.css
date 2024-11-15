@@ -63,3 +63,24 @@ img {
     border: 1px solid #ccc;
     background-color: var(--soft-pink);
 }
+
+.component__code .nav__title{
+    font-family: var(--font-button);
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--green-dark);
+}
+
+.component__code .nav__button {
+    font-family: var(--font-button);
+    color: var(--green-dark);
+}
+
+button{
+    border: solid 1px var(--green-dark);
+    color: var(--green-dark);
+    background: var(--med-pink);
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bolder;
+}
