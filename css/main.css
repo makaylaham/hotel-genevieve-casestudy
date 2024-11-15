@@ -19,7 +19,6 @@ body {
     font-family: var(--font-body);
     color: var(--green-dark);
     line-height: 1.5;
-    background-color: var(--soft-pink);
 }
 
 h1, h2, h3, h4, h5 {
@@ -62,4 +61,5 @@ img {
 
 .component__code {
     border: 1px solid #ccc;
+    background-color: var(--soft-pink);
 }
