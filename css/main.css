@@ -1,7 +1,7 @@
 :root {
     --font-body: Gowun Dodum, sans-serif;
     --font-button: outfit, serif;
-    --font-headers: bodoni moda, serif;
+    --font-headers: Libre Caslon Text, serif;
     --green-dark: #43555a;
     --soft-pink: #f4ecf0;
     --med-pink: #dbb4c3;
@@ -19,6 +19,7 @@ body {
     font-family: var(--font-body);
     color: var(--green-dark);
     line-height: 1.5;
+    background: var(--soft-pink);
 }
 
 h1, h2, h3, h4, h5 {
@@ -27,22 +28,17 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    color: var(--white);
-    background: #4b4b4b;
     font-size: 60px;
-    text-align: center;
 }
 
 h2 {
     color: var(--green-dark);
     font-size: 45px;
-    background-color: var(--soft-pink);
 }
 
 h3 {
     color: var(--green-dark);
     font-size: 30px;
-    background-color: var(--soft-pink);
 }
 
 img {
@@ -61,7 +57,6 @@ img {
 
 .component__code {
     border: 1px solid #ccc;
-    background-color: var(--soft-pink);
 }
 
 .component__code .nav__title{
