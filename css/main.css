@@ -22,6 +22,12 @@ body {
     background: var(--soft-pink);
 }
 
+a{
+    text-decoration: none;
+    color: var(--green-dark);
+    font-weight: bolder;
+}
+
 h1, h2, h3, h4, h5 {
     font-family: var(--font-headers);
     line-height: 1.5;
@@ -39,6 +45,10 @@ h2 {
 h3 {
     color: var(--green-dark);
     font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
 }
 
 img {
@@ -71,6 +81,10 @@ img {
     color: var(--green-dark);
 }
 
+.component__code h1{
+    color: var(--white);
+}
+
 button{
     border: solid 1px var(--green-dark);
     color: var(--green-dark);
@@ -79,3 +93,48 @@ button{
     font-size: 15px;
     font-weight: bolder;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    justify-content: baseline;
+}
+
+nav p{
+    display: inline-flex;
+}
+
+.michelin{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-gap: 10px;
+    max-width: 1250px;   
+}
+
+.eat_mod_img{
+    max-width: 400px;
+}
+
+.eatdrink{
+    text-align: center;
+}
+
+.eatdrink_module{
+    display: inline-block;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 400px;
+    justify-content: space-between;
+    margin: 0 0 0 1px;
+    text-align: left;
+}
+
+.eatdrink_mod_text{
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
