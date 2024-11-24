@@ -85,13 +85,18 @@ img {
     color: var(--white);
 }
 
-button{
+#email {
+    background: var(--white);
+}
+
+button, #email-button{
     border: solid 1px var(--green-dark);
     color: var(--green-dark);
     background: var(--med-pink);
     padding: 15px;
     font-size: 15px;
     font-weight: bolder;
+    display: inline-flex;
 }
 
 nav{
@@ -199,3 +204,42 @@ nav p{
    margin-right: 15px;
 }
 
+.pre-footer{
+    text-align: center;
+}
+
+.pre-footer__imgs img{
+    max-width: 250px;
+}
+
+.pre-footer__imgs{
+    max-width: 1900px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+
+}
+
+.pre-footer__signup {
+    border: solid 2px var(--green-dark);
+    background: var(--soft-pink);
+    text-align: center;
+}
+
+.footer {
+    background: var(--white);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav{
+    display: inline-flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 15px;
+}
+
+.footer img{
+    max-width: max-content;
+}
