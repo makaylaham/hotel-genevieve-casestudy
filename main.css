@@ -160,8 +160,18 @@ nav img{
     text-align: left;
 }
 
+.michelinimg{
+    margin: auto;
+}
+
 /* MICHELIN END */
 /* EATDRINK START */
+
+.eatdrink-main-text{
+    margin: auto;
+    max-width: 750px;
+    padding-bottom: 40px;
+}
 
 .eat_mod_img{
     max-width: 400px;
@@ -179,6 +189,7 @@ nav img{
     justify-content: space-between;
     margin: 0 0 0 1px;
     text-align: left;
+    padding-bottom: 40px;
 }
 
 .eatdrink_mod_text{
@@ -186,14 +197,12 @@ nav img{
    margin-right: 15px;
 }
 
-.eatdrink_head_text{
-    display: block;
+/* EATDRINK END */
+
+.main-img-2 img{
     margin: auto;
-    margin-bottom: 40px;
-    max-width: 735px; 
 }
 
-/* EATDRINK END */
 /* SHOP START */
 
 .shop_mod_img{
@@ -217,12 +226,13 @@ nav img{
 .shop_mod_text{
    margin-left: 15px;
    margin-right: 15px;
+   
 }
 
 .shop_head_text{
     display: block;
     margin: auto;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     max-width: 730px;
 }
 
@@ -230,18 +240,25 @@ nav img{
 /* EVENTS START */
 
 .event_mod_img{
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .event{
     text-align: center;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     display: block;
 }
 
+.events{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
 .event_module{
-    max-width: 500px;
+    max-width: 600px;
     justify-content: space-between;
     margin-bottom: 40px;
     margin-right: 5px;
@@ -262,20 +279,40 @@ nav img{
 
 .pre-footer__imgs img{
     max-width: 250px;
+    max-height: 250px;
 }
 
 .pre-footer__imgs{
-    max-width: 1900px;
+    max-width: 2000px;
     display: inline-flex;
     flex-wrap: nowrap;
-    overflow: scroll;
-
 }
+
+.pre-footer_section2{
+    display: inline-flex;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
 
 .pre-footer__signup {
     border: solid 2px var(--green-dark);
     background: var(--soft-pink);
     text-align: center;
+    max-width: 950px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.disco{
+    max-width: 900px;
 }
 
 /* PRE-FOOTER END */
@@ -283,7 +320,6 @@ nav img{
 
 .footer {
     background: var(--white);
-    text-align: center;
     display: flex;
     flex-direction: column;
 }
@@ -297,6 +333,7 @@ nav img{
 
 .footer img{
     max-width: max-content;
+    margin: auto;
 }
 
 /* FOOTER END */
